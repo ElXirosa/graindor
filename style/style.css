@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    background-color: #7B3F00;
+}
+
+td{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.2em;
+    color: #5a3a22;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #5a3a22;
+}
+.section_navtop{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #B89E48;
+}
+
+@media screen and (max-width: 996px) {
+    .section_navtop, .section_navtop li{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    section{
+        width: 80%;
+    }
+    .btn_cta, .btn_cta div{
+        font-size: 0.5em;
+        width: 100%;
+    }
+    .div_img_reseaux ul{
+        flex-direction: column;
+    }
+    body{
+        padding: 25px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .div_img_reseaux ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.section_navtop nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+}
+
+.section_navtop img:hover{
+    transform: scale(1.2); /* agrandir un peu l'icône */
+    filter: brightness(1.3); /* rendre plus lumineux */
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+nav a:hover{
+    color: rgba(99, 78, 12, 0.4);
+    font-size: 1.8em;
+}
+
+
+
+h1{
+    color: white;
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+h3, h4{
+    color: #5a3a22;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn_cta{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #5a3a22;
+    text-decoration: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn_cta_min{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #5a3a22;
+    text-decoration: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn_cta_min:hover{
+    background-color: #5a3a22;
+    opacity: 0.8;
+    font-size: 1.2em;
+}
+
+.btn_cta:hover{
+    background-color: #5a3a22;
+    opacity: 0.8;
+    font-size: 2.2em;
+    
+}
+
+section{
+    margin: 25px 25px 0px 25px;
+    background-color: white;
+    padding: 25px;
+}
+
+.p_articles{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #634E0C;
+    text-align: center;
+    font-size: 2em;
+    padding: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #B89E48;
+    margin-top: 50px;
+    padding: 25px 0px 25px 0px;
+}
+.div_img_reseaux{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.div_img_reseaux ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+
+footer img:hover{
+    transform: scale(1.2); /* agrandir un peu l'icône */
+}
+
+.liste_liens_footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.liste_liens_footer a:hover{
+    font-size: 1.1em;
+    opacity: 0.5;
+}
